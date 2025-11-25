@@ -40,9 +40,9 @@ def format_llm_response(response):
     
     return formatted_response
 
-# Example usage
-response = """### Summary of Mental Health State 1. *Anxiety: The user reports high levels of anxiety, particularly feeling anxious (intensity 7) and being always scared (intensity 7)... (the rest of the response) """
-print(format_llm_response(response))
+# # Example usage
+# response = """### Summary of Mental Health State 1. *Anxiety: The user reports high levels of anxiety, particularly feeling anxious (intensity 7) and being always scared (intensity 7)... (the rest of the response) """
+# print(format_llm_response(response))
 
 def create_list(string):
     keywords_str = string.replace("],[", ",")  
